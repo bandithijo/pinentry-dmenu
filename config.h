@@ -3,17 +3,17 @@
 
 static int bottom = 0;
 static int embedded = 0;
-static int minpwlen = 32;
+static int minpwlen = 20;
 static int mon = -1;
 
 static const char *asterisk = "*";
 static const char *fonts[] = {
-	"monospace:size=10"
+	"FuraCode Nerd Font:style=Medium,Regular:size=8"
 };
 static const char *prompt = NULL;
 static const char *colors[SchemeLast][4] = {
-	[SchemePrompt] = { "#bbbbbb", "#222222" },
+	[SchemePrompt] = { "#eeeeee", "#005577" },
 	[SchemeNormal] = { "#bbbbbb", "#222222" },
 	[SchemeSelect] = { "#eeeeee", "#005577" },
-	[SchemeDesc]   = { "#bbbbbb", "#222222" }
+	[SchemeDesc]   = { "#eeeeee", "#005577" }
 };
