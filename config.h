@@ -3,7 +3,7 @@
 
 static int bottom = 0;
 static int embedded = 0;
-static int minpwlen = 20;
+static int minpwlen = 10;
 static int mon = -1;
 
 static const char *asterisk = "*";
