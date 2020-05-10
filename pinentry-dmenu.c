@@ -292,7 +292,7 @@ setup(void) {
 	utf8 = XInternAtom(dpy, "UTF8_STRING", False);
 
 	/* Calculate menu geometry */
-	bh = drw->fonts->h + 3;
+	bh = drw->fonts->h + 2;
 	mh = bh;
 #ifdef XINERAMA
 	info = XineramaQueryScreens(dpy, &n);
