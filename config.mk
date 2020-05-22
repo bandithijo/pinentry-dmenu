@@ -7,8 +7,8 @@ BUGREPORT = https:\/\/github.com\/ritze\/pinentry-dmenu
 PREFIX    = /usr/local
 MANPREFIX = ${PREFIX}/share/man
 
-X11INC = /usr/X11R6/include
-X11LIB = /usr/X11R6/lib
+X11INC = /usr/local/include
+X11LIB = /usr/local/lib
 
 # Xinerama, comment if you don't want it
 XINERAMALIBS  = -lXinerama
