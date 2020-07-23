@@ -8,7 +8,7 @@ static int mon = -1;
 
 static const char *asterisk = "*";
 static const char *fonts[] = {
-	"FuraCode Nerd Font:style=Medium,Regular:size=8"
+	"JetBrainsMono Nerd Font:style=Medium,Regular:size=8"
 };
 static const char *prompt = NULL;
 static const char *colors[SchemeLast][4] = {
