@@ -6,7 +6,7 @@ static int embedded = 0;
 static int minpwlen = 10;
 static int mon = -1;
 
-static const char *asterisk = "*";
+static const char *asterisk = "#";
 static const char *fonts[] = {
 	"JetBrainsMono Nerd Font:style=Medium,Regular:size=8"
 };
