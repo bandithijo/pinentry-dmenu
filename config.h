@@ -12,8 +12,8 @@ static const char *fonts[] = {
 };
 static const char *prompt = NULL;
 static const char *colors[SchemeLast][4] = {
-	[SchemePrompt] = { "#002B36", "#B58900" },
+	[SchemePrompt] = { "#002B36", "#CB4B16" },
 	[SchemeNormal] = { "#93A1A1", "#002B36" },
-	[SchemeSelect] = { "#002B36", "#B58900" },
-	[SchemeDesc]   = { "#002B36", "#B58900" }
+	[SchemeSelect] = { "#002B36", "#CB4B16" },
+	[SchemeDesc]   = { "#002B36", "#CB4B16" }
 };
